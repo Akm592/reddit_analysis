@@ -1,40 +1,61 @@
 {
-  "analysis_date": "2025-06-12 18:43:29",
+  "analysis_date": "2025-06-12 22:46:36",
   "dataset_summary": {
-    "total_comments": 23274,
-    "date_range": "2025-04-11 to 2025-06-12",
+    "total_comments": 53722,
+    "date_range": "2025-03-22 to 2025-06-12",
     "subreddits": {
-      "technology": 17575,
-      "startups": 5699
+      "technology": 18387,
+      "pathofexile": 14639,
+      "factorio": 10236,
+      "startups": 5830,
+      "happy": 4630
     }
   },
   "sentiment_insights": {
     "technology": {
-      "average_sentiment": 0.026971903271692747,
-      "sentiment_std": 0.48512006572519545,
-      "positive_percentage": 40.60312944523471,
-      "negative_percentage": 35.351351351351354
+      "average_sentiment": 0.026810148474465653,
+      "sentiment_std": 0.4788125749361833,
+      "positive_percentage": 39.81617447109371,
+      "negative_percentage": 34.69298961222603
     },
     "startups": {
-      "average_sentiment": 0.3772299877171434,
-      "sentiment_std": 0.488103096941761,
-      "positive_percentage": 70.69661344095456,
-      "negative_percentage": 16.24846464291981
+      "average_sentiment": 0.37398840480274437,
+      "sentiment_std": 0.4841498583973777,
+      "positive_percentage": 70.10291595197256,
+      "negative_percentage": 15.849056603773585
+    },
+    "pathofexile": {
+      "average_sentiment": 0.16244474349340798,
+      "sentiment_std": 0.48153231799170165,
+      "positive_percentage": 51.18519024523533,
+      "negative_percentage": 25.527699979506796
+    },
+    "factorio": {
+      "average_sentiment": 0.20992573270808912,
+      "sentiment_std": 0.45090152163006203,
+      "positive_percentage": 54.318093005080115,
+      "negative_percentage": 21.09222352481438
+    },
+    "happy": {
+      "average_sentiment": 0.6087510151187906,
+      "sentiment_std": 0.3860657854674846,
+      "positive_percentage": 85.03239740820734,
+      "negative_percentage": 5.313174946004319
     }
   },
   "topic_insights": {
-    "total_topics": 36,
+    "total_topics": 65,
     "top_topics": {
-      "0_founder_get_china_would": 3388,
-      "1_tax_data_youtube_ad": 2172,
-      "2_thanks_thank_good_thats": 987,
-      "3_nvidia_apple_amd_phone": 509,
-      "4_water_energy_nuclear_fusion": 320,
-      "5_automod_compose_contain_performed": 284,
-      "6_article_news_headline_title": 283,
-      "7_starlink_fiber_rural_satellite": 255,
-      "8_chatgpt_chat_gpt_entered": 196,
-      "9_nasa_spacex_space_plane": 194
+      "0_poe_league_game_build": 5954,
+      "1_thank_congratulation_happy_proud": 3150,
+      "2_founder_investor_marketing_people": 3135,
+      "3_data_copyright_youtube_ad": 938,
+      "4_endeavour_strive_positivity_constructive": 507,
+      "5_china_chinese_taiwan_tariff": 489,
+      "6_train_station_signal_rail": 486,
+      "7_mouse_keyboard_button_click": 479,
+      "8_belt_splitter_inserters_green": 362,
+      "9_sound_music_song_play": 315
     }
   }
 }

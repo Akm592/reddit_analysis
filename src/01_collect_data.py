@@ -5,8 +5,9 @@ import time
 import logging
 import praw
 import pandas as pd
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Union
 import json
+import argparse
 
 class RedditDataCollector:
     """
@@ -214,18 +215,52 @@ class RedditDataCollector:
         self.logger.info(f"Finished r/{sub_name}: {comment_count} comments from {submission_count} submissions")
         return comment_count
     
-    def collect_data(self, subreddits: List[str] = None, days_back: int = 180) -> None:
-        """Main data collection method with resume capability"""
-        if subreddits is None:
-            subreddits = ['technology', 'startups']
+    def collect_data(self, subreddits: List[str] = None, 
+                    days_back: Optional[int] = None,
+                    start_date: Optional[Union[str, dt.datetime]] = None,
+                    end_date: Optional[Union[str, dt.datetime]] = None,
+                    output_path: Optional[str] = None) -> None:
+        """
+        Main data collection method with flexible date parameters.
         
-        # Define time window
-        end_date = dt.datetime.utcnow().replace(tzinfo=dt.timezone.utc)
-        start_date = end_date - dt.timedelta(days=days_back)
+        Args:
+            subreddits: List of subreddit names to collect from
+            days_back: Number of days back from today (overridden by start_date/end_date)
+            start_date: Start date for collection (str in YYYY-MM-DD format or datetime)
+            end_date: End date for collection (str in YYYY-MM-DD format or datetime)
+            output_path: Custom output file path
+        """
+        # Set default subreddits if none provided
+        if subreddits is None:
+            subreddits = ['technology', 'startups','pathofexile', 'factorio', 'happy']
+        
+        # Handle date parameters with flexible input
+        if start_date is not None and end_date is not None:
+            # Use provided date range
+            if isinstance(start_date, str):
+                start_date = dt.datetime.strptime(start_date, '%Y-%m-%d').replace(tzinfo=dt.timezone.utc)
+            elif isinstance(start_date, dt.datetime) and start_date.tzinfo is None:
+                start_date = start_date.replace(tzinfo=dt.timezone.utc)
+                
+            if isinstance(end_date, str):
+                end_date = dt.datetime.strptime(end_date, '%Y-%m-%d').replace(tzinfo=dt.timezone.utc)
+            elif isinstance(end_date, dt.datetime) and end_date.tzinfo is None:
+                end_date = end_date.replace(tzinfo=dt.timezone.utc)
+        else:
+            # Use days_back parameter (default to 30 days if not specified)
+            if days_back is None:
+                days_back = 365
+                self.logger.info(f"No date range specified, defaulting to {days_back} days back")
+            
+            end_date = dt.datetime.utcnow().replace(tzinfo=dt.timezone.utc)
+            start_date = end_date - dt.timedelta(days=days_back)
         
         self.logger.info(f"Collecting data from {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}")
         
-        output_path = 'data/raw/combined_comments.csv'
+        # Set output path
+        if output_path is None:
+            output_path = 'data/raw/combined_comments.csv'
+        
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         
         # Check for previous progress
@@ -249,7 +284,11 @@ class RedditDataCollector:
                 self.save_progress({
                     'completed_subreddits': completed_subreddits,
                     'last_updated': dt.datetime.now(),
-                    'stats': self.stats
+                    'stats': self.stats,
+                    'date_range': {
+                        'start_date': start_date.isoformat(),
+                        'end_date': end_date.isoformat()
+                    }
                 })
                 
             except Exception as e:
@@ -276,21 +315,84 @@ class RedditDataCollector:
             self.logger.error(f"Dataset validation failed: {e}")
 
 
+def create_arg_parser():
+    """Create command line argument parser"""
+    parser = argparse.ArgumentParser(description='Reddit Data Collector')
+    
+    parser.add_argument('--subreddits', nargs='+', 
+                       help='List of subreddit names to collect from')
+    
+    parser.add_argument('--days-back', type=int,
+                       help='Number of days back from today to collect data')
+    
+    parser.add_argument('--start-date', type=str,
+                       help='Start date for collection (YYYY-MM-DD format)')
+    
+    parser.add_argument('--end-date', type=str,
+                       help='End date for collection (YYYY-MM-DD format)')
+    
+    parser.add_argument('--output-path', type=str,
+                       help='Custom output file path')
+    
+    parser.add_argument('--config-path', type=str, default='config.ini',
+                       help='Path to configuration file')
+    
+    return parser
+
+
 def main():
-    """Main execution function"""
-    collector = RedditDataCollector()
+    """Main execution function with command line argument support"""
+    parser = create_arg_parser()
+    args = parser.parse_args()
+    
+    collector = RedditDataCollector(config_path=args.config_path)
     
     # Collect data with error recovery
     try:
         collector.collect_data(
-            subreddits=['technology', 'startups'],
-            days_back=180
+            subreddits=args.subreddits,
+            days_back=args.days_back,
+            start_date=args.start_date,
+            end_date=args.end_date,
+            output_path=args.output_path
         )
     except KeyboardInterrupt:
         collector.logger.info("Collection interrupted by user")
     except Exception as e:
         collector.logger.error(f"Collection failed: {e}")
-        
 
+
+# Example usage functions for different scenarios
+def collect_last_week_data():
+    """Example: Collect data from the last 7 days"""
+    collector = RedditDataCollector()
+    collector.collect_data(
+        subreddits=['technology', 'startups', 'MachineLearning'],
+        days_back=7
+    )
+
+def collect_custom_date_range():
+    """Example: Collect data from a specific date range"""
+    collector = RedditDataCollector()
+    collector.collect_data(
+        subreddits=['technology', 'startups'],
+        start_date='2024-01-01',
+        end_date='2024-01-31'
+    )
+
+def collect_with_datetime_objects():
+    """Example: Collect data using datetime objects"""
+    collector = RedditDataCollector()
+    start = dt.datetime(2024, 1, 1)
+    end = dt.datetime(2024, 1, 31)
+    
+    collector.collect_data(
+        subreddits=['technology'],
+        start_date=start,
+        end_date=end,
+        output_path='data/january_2024_data.csv'
+    )
+
+        
 if __name__ == '__main__':
     main()

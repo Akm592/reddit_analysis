@@ -1,103 +1,222 @@
-2025-06-12 15:00:21,748 - INFO - Collecting data from 2024-12-14 to 2025-06-12
-2025-06-12 15:00:21,748 - INFO - Starting collection for r/technology
-2025-06-12 15:00:21,748 - INFO - Trying strategy: timestamp
-2025-06-12 15:00:22,816 - INFO - Trying strategy: recent_hot
-2025-06-12 15:00:48,654 - INFO - Saved batch of 594 comments
-2025-06-12 15:01:05,705 - INFO - Saved batch of 509 comments
-2025-06-12 15:01:25,717 - INFO - Saved batch of 521 comments
-2025-06-12 15:01:30,792 - INFO - r/technology: 25 submissions, 1728 comments, 0 errors
-2025-06-12 15:01:57,524 - INFO - Saved batch of 562 comments
-2025-06-12 15:02:21,991 - INFO - r/technology: 50 submissions, 2556 comments, 0 errors
-2025-06-12 15:02:29,645 - INFO - Saved batch of 567 comments
-2025-06-12 15:02:55,692 - INFO - Saved batch of 524 comments
-2025-06-12 15:03:09,204 - INFO - r/technology: 75 submissions, 3545 comments, 0 errors
-2025-06-12 15:03:22,515 - INFO - Saved batch of 507 comments
-2025-06-12 15:03:53,238 - INFO - Saved batch of 543 comments
-2025-06-12 15:04:03,575 - INFO - r/technology: 100 submissions, 4527 comments, 0 errors
-2025-06-12 15:04:19,660 - INFO - Saved batch of 511 comments
-2025-06-12 15:04:45,667 - INFO - Saved batch of 500 comments
-2025-06-12 15:04:50,082 - INFO - r/technology: 125 submissions, 5357 comments, 0 errors
-2025-06-12 15:05:13,013 - INFO - Saved batch of 554 comments
-2025-06-12 15:05:35,629 - INFO - r/technology: 150 submissions, 6265 comments, 0 errors
-2025-06-12 15:05:45,064 - INFO - Saved batch of 562 comments
-2025-06-12 15:06:09,946 - INFO - Saved batch of 534 comments
-2025-06-12 15:06:27,342 - INFO - r/technology: 175 submissions, 7246 comments, 0 errors
-2025-06-12 15:06:40,249 - INFO - Saved batch of 507 comments
-2025-06-12 15:07:14,250 - INFO - r/technology: 200 submissions, 7908 comments, 0 errors
-2025-06-12 15:07:19,373 - INFO - Saved batch of 515 comments
-2025-06-12 15:07:44,973 - INFO - Saved batch of 599 comments
-2025-06-12 15:07:58,349 - INFO - r/technology: 225 submissions, 8834 comments, 0 errors
-2025-06-12 15:08:20,098 - INFO - Saved batch of 594 comments
-2025-06-12 15:08:52,450 - INFO - r/technology: 250 submissions, 9650 comments, 0 errors
-2025-06-12 15:08:54,094 - INFO - Saved batch of 501 comments
-2025-06-12 15:09:14,777 - INFO - Saved batch of 512 comments
-2025-06-12 15:09:38,655 - INFO - Saved batch of 554 comments
-2025-06-12 15:09:45,081 - INFO - r/technology: 275 submissions, 10899 comments, 0 errors
-2025-06-12 15:10:05,780 - INFO - Saved batch of 592 comments
-2025-06-12 15:10:37,278 - INFO - Saved batch of 507 comments
-2025-06-12 15:10:37,279 - INFO - r/technology: 300 submissions, 11869 comments, 0 errors
-2025-06-12 15:10:58,794 - INFO - Saved batch of 568 comments
-2025-06-12 15:11:25,335 - INFO - Saved batch of 506 comments
-2025-06-12 15:11:30,143 - INFO - r/technology: 325 submissions, 13041 comments, 0 errors
-2025-06-12 15:11:57,667 - INFO - Saved batch of 535 comments
-2025-06-12 15:12:17,557 - INFO - r/technology: 350 submissions, 13707 comments, 0 errors
-2025-06-12 15:12:30,061 - INFO - Saved batch of 525 comments
-2025-06-12 15:12:58,233 - INFO - Saved batch of 522 comments
-2025-06-12 15:13:10,673 - INFO - r/technology: 375 submissions, 14786 comments, 0 errors
-2025-06-12 15:13:27,297 - INFO - Saved batch of 506 comments
-2025-06-12 15:13:54,346 - INFO - Saved batch of 505 comments
-2025-06-12 15:13:55,656 - INFO - r/technology: 400 submissions, 15536 comments, 0 errors
-2025-06-12 15:14:23,931 - INFO - Saved batch of 500 comments
-2025-06-12 15:14:42,863 - INFO - r/technology: 425 submissions, 16351 comments, 0 errors
-2025-06-12 15:15:02,644 - INFO - Saved batch of 536 comments
-2025-06-12 15:15:36,522 - INFO - r/technology: 450 submissions, 16940 comments, 0 errors
-2025-06-12 15:15:44,719 - INFO - Saved batch of 549 comments
-2025-06-12 15:16:13,088 - INFO - Saved batch of 540 comments
-2025-06-12 15:16:20,655 - INFO - r/technology: 475 submissions, 17750 comments, 0 errors
-2025-06-12 15:16:48,006 - INFO - Saved batch of 509 comments
-2025-06-12 15:17:00,286 - INFO - r/technology: 500 submissions, 18302 comments, 0 errors
-2025-06-12 15:17:00,289 - INFO - Saved batch of 132 comments
-2025-06-12 15:17:00,289 - INFO - Finished r/technology: 18302 comments from 500 submissions
-2025-06-12 15:17:00,289 - INFO - Starting collection for r/startups
-2025-06-12 15:17:00,289 - INFO - Trying strategy: timestamp
-2025-06-12 15:17:00,717 - INFO - Trying strategy: recent_hot
-2025-06-12 15:17:41,759 - INFO - r/startups: 25 submissions, 457 comments, 0 errors
-2025-06-12 15:17:46,686 - INFO - Saved batch of 590 comments
-2025-06-12 15:18:19,544 - INFO - r/startups: 50 submissions, 996 comments, 0 errors
-2025-06-12 15:18:29,687 - INFO - Saved batch of 501 comments
-2025-06-12 15:18:56,001 - INFO - r/startups: 75 submissions, 1421 comments, 0 errors
-2025-06-12 15:19:06,963 - INFO - Saved batch of 506 comments
-2025-06-12 15:19:35,986 - INFO - r/startups: 100 submissions, 2017 comments, 0 errors
-2025-06-12 15:19:45,367 - INFO - Saved batch of 523 comments
-2025-06-12 15:49:55,899 - WARNING - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1l45wz7/
-2025-06-12 15:50:16,735 - INFO - r/startups: 125 submissions, 2568 comments, 0 errors
-2025-06-12 15:50:23,716 - INFO - Saved batch of 501 comments
-2025-06-12 15:50:52,940 - INFO - r/startups: 150 submissions, 2972 comments, 0 errors
-2025-06-12 15:51:03,419 - INFO - Saved batch of 539 comments
-2025-06-12 15:51:29,948 - INFO - r/startups: 175 submissions, 3484 comments, 0 errors
-2025-06-12 15:51:39,170 - INFO - Saved batch of 514 comments
-2025-06-12 15:52:08,199 - INFO - r/startups: 200 submissions, 4156 comments, 0 errors
-2025-06-12 15:52:11,004 - INFO - Saved batch of 505 comments
-2025-06-12 15:52:46,873 - INFO - r/startups: 225 submissions, 4555 comments, 0 errors
-2025-06-12 15:52:58,707 - INFO - Saved batch of 575 comments
-2025-06-12 15:53:23,245 - INFO - r/startups: 250 submissions, 5092 comments, 0 errors
-2025-06-12 15:53:40,405 - INFO - Saved batch of 502 comments
-2025-06-12 15:53:59,627 - INFO - r/startups: 275 submissions, 5589 comments, 0 errors
-2025-06-12 15:54:13,754 - INFO - Saved batch of 576 comments
-2025-06-12 15:54:19,324 - INFO - Saved batch of 38 comments
-2025-06-12 15:54:19,325 - INFO - Finished r/startups: 5870 comments from 288 submissions
-2025-06-12 15:54:19,325 - INFO - Collection complete! Total stats: {'total_comments': 24172, 'total_submissions': 788, 'errors': 0}
-2025-06-12 15:54:19,401 - INFO - Dataset validation:
-2025-06-12 15:54:19,401 - INFO -   Total rows: 24172
-2025-06-12 15:54:19,403 - INFO -   Subreddits: {'technology': 18302, 'startups': 5870}
-2025-06-12 15:54:19,406 - INFO -   Date range: 2025-04-11 18:15:06+00:00 to 2025-06-12 09:42:34+00:00
-2025-06-12 15:54:19,411 - INFO -   Missing values: {'subreddit': 0, 'comment_id': 0, 'comment_body': 0, 'created_utc': 0, 'comment_score': 0, 'submission_id': 0, 'submission_title': 0, 'submission_score': 0, 'submission_num_comments': 0}
-2025-06-12 16:26:18,755 - INFO - Collecting data from 2024-12-14 to 2025-06-12
-2025-06-12 16:26:18,756 - INFO - Skipping r/technology (already completed)
-2025-06-12 16:26:18,756 - INFO - Skipping r/startups (already completed)
-2025-06-12 16:26:18,756 - INFO - Collection complete! Total stats: {'total_comments': 0, 'total_submissions': 0, 'errors': 0}
-2025-06-12 16:26:18,836 - INFO - Dataset validation:
-2025-06-12 16:26:18,836 - INFO -   Total rows: 24172
-2025-06-12 16:26:18,837 - INFO -   Subreddits: {'technology': 18302, 'startups': 5870}
-2025-06-12 16:26:18,839 - INFO -   Date range: 2025-04-11 18:15:06+00:00 to 2025-06-12 09:42:34+00:00
-2025-06-12 16:26:18,843 - INFO -   Missing values: {'subreddit': 0, 'comment_id': 0, 'comment_body': 0, 'created_utc': 0, 'comment_score': 0, 'submission_id': 0, 'submission_title': 0, 'submission_score': 0, 'submission_num_comments': 0}
+2025-06-12 21:19:41,339 - INFO - Collecting data from 2024-12-14 to 2025-06-12
+2025-06-12 21:19:41,339 - INFO - Starting collection for r/technology
+2025-06-12 21:19:41,339 - INFO - Trying strategy: timestamp
+2025-06-12 21:19:42,429 - INFO - Trying strategy: recent_hot
+2025-06-12 21:20:02,496 - INFO - Saved batch of 582 comments
+2025-06-12 21:20:25,521 - INFO - Saved batch of 585 comments
+2025-06-12 21:20:52,368 - INFO - Saved batch of 507 comments
+2025-06-12 21:20:53,918 - INFO - r/technology: 25 submissions, 1696 comments, 0 errors
+2025-06-12 21:21:13,553 - INFO - Saved batch of 565 comments
+2025-06-12 21:21:42,600 - INFO - r/technology: 50 submissions, 2676 comments, 0 errors
+2025-06-12 21:21:46,014 - INFO - Saved batch of 508 comments
+2025-06-12 21:22:24,060 - INFO - Saved batch of 503 comments
+2025-06-12 21:22:29,535 - INFO - r/technology: 75 submissions, 3402 comments, 0 errors
+2025-06-12 21:22:53,196 - INFO - Saved batch of 575 comments
+2025-06-12 21:23:20,011 - INFO - r/technology: 100 submissions, 4252 comments, 0 errors
+2025-06-12 21:23:32,010 - INFO - Saved batch of 590 comments
+2025-06-12 21:23:59,749 - INFO - Saved batch of 545 comments
+2025-06-12 21:24:09,573 - INFO - r/technology: 125 submissions, 5108 comments, 0 errors
+2025-06-12 21:24:34,879 - INFO - Saved batch of 520 comments
+2025-06-12 21:24:55,565 - INFO - Saved batch of 568 comments
+2025-06-12 21:25:03,332 - INFO - r/technology: 150 submissions, 6076 comments, 0 errors
+2025-06-12 21:25:33,451 - INFO - Saved batch of 555 comments
+2025-06-12 21:25:49,303 - INFO - r/technology: 175 submissions, 6992 comments, 0 errors
+2025-06-12 21:25:57,931 - INFO - Saved batch of 537 comments
+2025-06-12 21:26:31,205 - INFO - Saved batch of 593 comments
+2025-06-12 21:26:42,768 - INFO - r/technology: 200 submissions, 7986 comments, 0 errors
+2025-06-12 21:26:58,121 - INFO - Saved batch of 502 comments
+2025-06-12 21:27:30,380 - INFO - r/technology: 225 submissions, 8631 comments, 0 errors
+2025-06-12 21:27:36,343 - INFO - Saved batch of 550 comments
+2025-06-12 21:28:05,108 - INFO - Saved batch of 519 comments
+2025-06-12 21:28:17,489 - INFO - r/technology: 250 submissions, 9624 comments, 0 errors
+2025-06-12 21:28:28,155 - INFO - Saved batch of 522 comments
+2025-06-12 21:29:06,476 - INFO - Saved batch of 597 comments
+2025-06-12 21:29:10,034 - INFO - r/technology: 275 submissions, 10522 comments, 0 errors
+2025-06-12 21:29:39,046 - INFO - Saved batch of 588 comments
+2025-06-12 21:30:03,694 - INFO - Saved batch of 504 comments
+2025-06-12 21:30:07,981 - INFO - r/technology: 300 submissions, 11603 comments, 0 errors
+2025-06-12 21:30:28,214 - INFO - Saved batch of 539 comments
+2025-06-12 21:30:58,982 - INFO - Saved batch of 507 comments
+2025-06-12 21:30:58,983 - INFO - r/technology: 325 submissions, 12561 comments, 0 errors
+2025-06-12 21:31:28,072 - INFO - Saved batch of 593 comments
+2025-06-12 21:31:54,902 - INFO - Saved batch of 558 comments
+2025-06-12 21:31:58,885 - INFO - r/technology: 350 submissions, 13812 comments, 0 errors
+2025-06-12 21:32:27,658 - INFO - Saved batch of 572 comments
+2025-06-12 21:32:50,999 - INFO - r/technology: 375 submissions, 14656 comments, 0 errors
+2025-06-12 21:33:10,060 - INFO - Saved batch of 591 comments
+2025-06-12 21:33:34,839 - INFO - Saved batch of 519 comments
+2025-06-12 21:33:37,696 - INFO - r/technology: 400 submissions, 15408 comments, 0 errors
+2025-06-12 21:34:07,866 - INFO - Saved batch of 506 comments
+2025-06-12 21:34:28,690 - INFO - r/technology: 425 submissions, 16263 comments, 0 errors
+2025-06-12 21:34:39,656 - INFO - Saved batch of 563 comments
+2025-06-12 21:35:12,251 - INFO - Saved batch of 560 comments
+2025-06-12 21:35:15,180 - INFO - r/technology: 450 submissions, 17025 comments, 0 errors
+2025-06-12 21:35:51,537 - INFO - Saved batch of 535 comments
+2025-06-12 21:36:08,636 - INFO - r/technology: 475 submissions, 17796 comments, 0 errors
+2025-06-12 21:36:30,623 - INFO - Saved batch of 549 comments
+2025-06-12 21:36:54,408 - INFO - r/technology: 500 submissions, 18472 comments, 0 errors
+2025-06-12 21:36:54,413 - INFO - Saved batch of 365 comments
+2025-06-12 21:36:54,413 - INFO - Finished r/technology: 18472 comments from 500 submissions
+2025-06-12 21:36:54,413 - INFO - Starting collection for r/startups
+2025-06-12 21:36:54,413 - INFO - Trying strategy: timestamp
+2025-06-12 21:36:54,839 - INFO - Trying strategy: recent_hot
+2025-06-12 21:37:37,520 - INFO - r/startups: 25 submissions, 477 comments, 0 errors
+2025-06-12 21:37:40,402 - INFO - Saved batch of 504 comments
+2025-06-12 21:38:13,264 - INFO - Saved batch of 505 comments
+2025-06-12 21:38:18,077 - INFO - r/startups: 50 submissions, 1045 comments, 0 errors
+2025-06-12 21:38:56,983 - INFO - r/startups: 75 submissions, 1421 comments, 0 errors
+2025-06-12 21:39:09,177 - INFO - Saved batch of 525 comments
+2025-06-12 21:39:36,706 - INFO - r/startups: 100 submissions, 1939 comments, 0 errors
+2025-06-12 21:39:51,714 - INFO - Saved batch of 579 comments
+2025-06-12 21:40:19,728 - INFO - r/startups: 125 submissions, 2559 comments, 0 errors
+2025-06-12 21:40:21,685 - INFO - Saved batch of 523 comments
+2025-06-12 21:40:58,296 - INFO - r/startups: 150 submissions, 2963 comments, 0 errors
+2025-06-12 21:41:13,796 - INFO - Saved batch of 504 comments
+2025-06-12 21:41:37,445 - INFO - r/startups: 175 submissions, 3507 comments, 0 errors
+2025-06-12 21:41:51,057 - INFO - Saved batch of 502 comments
+2025-06-12 21:42:16,875 - INFO - r/startups: 200 submissions, 4117 comments, 0 errors
+2025-06-12 21:42:19,994 - INFO - Saved batch of 510 comments
+2025-06-12 21:42:57,319 - INFO - r/startups: 225 submissions, 4577 comments, 0 errors
+2025-06-12 21:43:01,424 - INFO - Saved batch of 525 comments
+2025-06-12 21:43:36,248 - INFO - r/startups: 250 submissions, 5021 comments, 0 errors
+2025-06-12 21:43:50,736 - INFO - Saved batch of 573 comments
+2025-06-12 21:44:15,431 - INFO - r/startups: 275 submissions, 5527 comments, 0 errors
+2025-06-12 21:44:29,280 - INFO - Saved batch of 500 comments
+2025-06-12 21:44:35,514 - INFO - Saved batch of 105 comments
+2025-06-12 21:44:35,514 - INFO - Finished r/startups: 5855 comments from 288 submissions
+2025-06-12 21:44:35,515 - INFO - Starting collection for r/pathofexile
+2025-06-12 21:44:35,516 - INFO - Trying strategy: timestamp
+2025-06-12 21:44:35,954 - INFO - Trying strategy: recent_hot
+2025-06-12 21:44:52,737 - INFO - Saved batch of 516 comments
+2025-06-12 21:45:14,233 - INFO - Saved batch of 514 comments
+2025-06-12 21:45:34,504 - INFO - r/pathofexile: 25 submissions, 1442 comments, 0 errors
+2025-06-12 21:45:39,861 - INFO - Saved batch of 555 comments
+2025-06-12 21:46:10,963 - INFO - Saved batch of 503 comments
+2025-06-12 21:46:17,877 - INFO - r/pathofexile: 50 submissions, 2287 comments, 0 errors
+2025-06-12 21:46:30,426 - INFO - Saved batch of 510 comments
+2025-06-12 21:46:54,582 - INFO - r/pathofexile: 75 submissions, 2920 comments, 0 errors
+2025-06-12 21:47:04,624 - INFO - Saved batch of 527 comments
+2025-06-12 21:47:25,312 - INFO - Saved batch of 537 comments
+2025-06-12 21:47:41,484 - INFO - r/pathofexile: 100 submissions, 3915 comments, 0 errors
+2025-06-12 21:48:02,794 - INFO - Saved batch of 564 comments
+2025-06-12 21:48:23,670 - INFO - r/pathofexile: 125 submissions, 4580 comments, 0 errors
+2025-06-12 21:48:36,287 - INFO - Saved batch of 548 comments
+2025-06-12 21:49:04,222 - INFO - r/pathofexile: 150 submissions, 5206 comments, 0 errors
+2025-06-12 21:49:13,272 - INFO - Saved batch of 535 comments
+2025-06-12 21:49:41,905 - INFO - r/pathofexile: 175 submissions, 5661 comments, 0 errors
+2025-06-12 21:49:51,337 - INFO - Saved batch of 530 comments
+2025-06-12 21:50:15,504 - INFO - Saved batch of 554 comments
+2025-06-12 21:50:29,020 - INFO - r/pathofexile: 200 submissions, 6764 comments, 0 errors
+2025-06-12 21:50:40,587 - INFO - Saved batch of 514 comments
+2025-06-12 21:51:08,834 - INFO - Saved batch of 568 comments
+2025-06-12 21:51:16,427 - INFO - r/pathofexile: 225 submissions, 7605 comments, 0 errors
+2025-06-12 21:51:36,296 - INFO - Saved batch of 514 comments
+2025-06-12 21:51:59,225 - INFO - r/pathofexile: 250 submissions, 8358 comments, 0 errors
+2025-06-12 21:52:15,274 - INFO - Saved batch of 500 comments
+2025-06-12 21:52:38,556 - INFO - r/pathofexile: 275 submissions, 8873 comments, 0 errors
+2025-06-12 21:52:44,084 - INFO - Saved batch of 500 comments
+2025-06-12 21:53:12,025 - INFO - Saved batch of 516 comments
+2025-06-12 21:53:23,147 - INFO - r/pathofexile: 300 submissions, 9765 comments, 0 errors
+2025-06-12 21:53:46,343 - INFO - Saved batch of 504 comments
+2025-06-12 21:54:10,830 - INFO - r/pathofexile: 325 submissions, 10267 comments, 0 errors
+2025-06-12 21:54:25,141 - INFO - Saved batch of 501 comments
+2025-06-12 21:54:57,864 - INFO - r/pathofexile: 350 submissions, 10951 comments, 0 errors
+2025-06-12 21:55:05,667 - INFO - Saved batch of 548 comments
+2025-06-12 21:55:44,829 - INFO - Saved batch of 597 comments
+2025-06-12 21:55:48,119 - INFO - r/pathofexile: 375 submissions, 11686 comments, 0 errors
+2025-06-12 21:56:31,115 - INFO - Saved batch of 507 comments
+2025-06-12 21:56:31,115 - INFO - r/pathofexile: 400 submissions, 12162 comments, 0 errors
+2025-06-12 21:57:12,506 - INFO - Saved batch of 523 comments
+2025-06-12 21:57:18,760 - INFO - r/pathofexile: 425 submissions, 12732 comments, 0 errors
+2025-06-12 21:57:51,906 - INFO - Saved batch of 504 comments
+2025-06-12 21:58:08,041 - INFO - r/pathofexile: 450 submissions, 13464 comments, 0 errors
+2025-06-12 21:58:27,978 - INFO - Saved batch of 500 comments
+2025-06-12 21:58:55,944 - INFO - r/pathofexile: 475 submissions, 14023 comments, 0 errors
+2025-06-12 21:59:09,068 - INFO - Saved batch of 507 comments
+2025-06-12 21:59:43,071 - INFO - Saved batch of 535 comments
+2025-06-12 21:59:43,071 - INFO - r/pathofexile: 500 submissions, 14731 comments, 0 errors
+2025-06-12 21:59:43,071 - INFO - Finished r/pathofexile: 14731 comments from 500 submissions
+2025-06-12 21:59:43,073 - INFO - Starting collection for r/factorio
+2025-06-12 21:59:43,073 - INFO - Trying strategy: timestamp
+2025-06-12 21:59:43,542 - INFO - Trying strategy: recent_hot
+2025-06-12 22:00:09,882 - INFO - Saved batch of 525 comments
+2025-06-12 22:00:33,528 - INFO - r/factorio: 25 submissions, 927 comments, 0 errors
+2025-06-12 22:00:40,602 - INFO - Saved batch of 507 comments
+2025-06-12 22:01:09,148 - INFO - r/factorio: 50 submissions, 1303 comments, 0 errors
+2025-06-12 22:01:28,904 - INFO - Saved batch of 506 comments
+2025-06-12 22:01:51,788 - INFO - r/factorio: 75 submissions, 1880 comments, 0 errors
+2025-06-12 22:02:07,640 - INFO - Saved batch of 520 comments
+2025-06-12 22:02:35,464 - INFO - r/factorio: 100 submissions, 2416 comments, 0 errors
+2025-06-12 22:02:47,723 - INFO - Saved batch of 528 comments
+2025-06-12 22:03:24,031 - INFO - r/factorio: 125 submissions, 2931 comments, 0 errors
+2025-06-12 22:03:38,838 - INFO - Saved batch of 504 comments
+2025-06-12 22:04:10,043 - INFO - r/factorio: 150 submissions, 3577 comments, 0 errors
+2025-06-12 22:04:11,618 - INFO - Saved batch of 503 comments
+2025-06-12 22:04:53,391 - INFO - r/factorio: 175 submissions, 4068 comments, 0 errors
+2025-06-12 22:05:00,617 - INFO - Saved batch of 591 comments
+2025-06-12 22:05:37,798 - INFO - r/factorio: 200 submissions, 4654 comments, 0 errors
+2025-06-12 22:05:48,949 - INFO - Saved batch of 515 comments
+2025-06-12 22:06:27,718 - INFO - r/factorio: 225 submissions, 5059 comments, 0 errors
+2025-06-12 22:06:40,806 - INFO - Saved batch of 501 comments
+2025-06-12 22:07:13,368 - INFO - r/factorio: 250 submissions, 5600 comments, 0 errors
+2025-06-12 22:07:20,023 - INFO - Saved batch of 510 comments
+2025-06-12 22:07:57,318 - INFO - r/factorio: 275 submissions, 5973 comments, 0 errors
+2025-06-12 22:08:33,480 - INFO - Saved batch of 539 comments
+2025-06-12 22:08:40,135 - INFO - r/factorio: 300 submissions, 6271 comments, 0 errors
+2025-06-12 22:09:30,159 - INFO - r/factorio: 325 submissions, 6640 comments, 0 errors
+2025-06-12 22:09:46,605 - INFO - Saved batch of 538 comments
+2025-06-12 22:10:16,694 - INFO - r/factorio: 350 submissions, 7265 comments, 0 errors
+2025-06-12 22:10:20,162 - INFO - Saved batch of 502 comments
+2025-06-12 22:10:57,808 - INFO - r/factorio: 375 submissions, 7691 comments, 0 errors
+2025-06-12 22:11:06,558 - INFO - Saved batch of 504 comments
+2025-06-12 22:11:41,464 - INFO - r/factorio: 400 submissions, 8153 comments, 0 errors
+2025-06-12 22:11:57,294 - INFO - Saved batch of 520 comments
+2025-06-12 22:12:29,925 - INFO - r/factorio: 425 submissions, 8697 comments, 0 errors
+2025-06-12 22:12:38,435 - INFO - Saved batch of 502 comments
+2025-06-12 22:13:14,889 - INFO - r/factorio: 450 submissions, 9294 comments, 0 errors
+2025-06-12 22:13:16,892 - INFO - Saved batch of 524 comments
+2025-06-12 22:13:56,346 - INFO - r/factorio: 475 submissions, 9780 comments, 0 errors
+2025-06-12 22:14:04,212 - INFO - Saved batch of 503 comments
+2025-06-12 22:14:43,558 - INFO - Saved batch of 500 comments
+2025-06-12 22:14:43,558 - INFO - r/factorio: 500 submissions, 10342 comments, 0 errors
+2025-06-12 22:14:43,558 - INFO - Finished r/factorio: 10342 comments from 500 submissions
+2025-06-12 22:14:43,558 - INFO - Starting collection for r/happy
+2025-06-12 22:14:43,558 - INFO - Trying strategy: timestamp
+2025-06-12 22:14:45,007 - INFO - Trying strategy: recent_hot
+2025-06-12 22:15:29,743 - INFO - r/happy: 25 submissions, 216 comments, 0 errors
+2025-06-12 22:16:10,238 - INFO - r/happy: 50 submissions, 480 comments, 0 errors
+2025-06-12 22:16:11,853 - INFO - Saved batch of 506 comments
+2025-06-12 22:16:49,955 - INFO - r/happy: 75 submissions, 676 comments, 0 errors
+2025-06-12 22:17:32,687 - INFO - r/happy: 100 submissions, 998 comments, 0 errors
+2025-06-12 22:17:38,158 - INFO - Saved batch of 508 comments
+2025-06-12 22:18:16,082 - INFO - r/happy: 125 submissions, 1303 comments, 0 errors
+2025-06-12 22:18:55,351 - INFO - r/happy: 150 submissions, 1511 comments, 0 errors
+2025-06-12 22:18:58,195 - INFO - Saved batch of 500 comments
+2025-06-12 22:19:36,776 - INFO - r/happy: 175 submissions, 1704 comments, 0 errors
+2025-06-12 22:20:22,616 - INFO - Saved batch of 502 comments
+2025-06-12 22:20:22,616 - INFO - r/happy: 200 submissions, 2016 comments, 0 errors
+2025-06-12 22:21:04,431 - INFO - r/happy: 225 submissions, 2171 comments, 0 errors
+2025-06-12 22:21:45,631 - INFO - r/happy: 250 submissions, 2412 comments, 0 errors
+2025-06-12 22:21:57,894 - INFO - Saved batch of 509 comments
+2025-06-12 22:22:27,053 - INFO - r/happy: 275 submissions, 2673 comments, 0 errors
+2025-06-12 22:23:07,706 - INFO - r/happy: 300 submissions, 2880 comments, 0 errors
+2025-06-12 22:23:38,851 - INFO - Saved batch of 502 comments
+2025-06-12 22:23:50,211 - INFO - r/happy: 325 submissions, 3135 comments, 0 errors
+2025-06-12 22:24:27,638 - INFO - r/happy: 350 submissions, 3258 comments, 0 errors
+2025-06-12 22:25:07,589 - INFO - r/happy: 375 submissions, 3484 comments, 0 errors
+2025-06-12 22:25:12,405 - INFO - Saved batch of 506 comments
+2025-06-12 22:25:50,300 - INFO - r/happy: 400 submissions, 3758 comments, 0 errors
+2025-06-12 22:26:33,364 - INFO - r/happy: 425 submissions, 3974 comments, 0 errors
+2025-06-12 22:26:40,432 - INFO - Saved batch of 505 comments
+2025-06-12 22:27:16,611 - INFO - r/happy: 450 submissions, 4201 comments, 0 errors
+2025-06-12 22:27:54,773 - INFO - r/happy: 475 submissions, 4455 comments, 0 errors
+2025-06-12 22:28:16,467 - INFO - Saved batch of 500 comments
+2025-06-12 22:28:34,802 - INFO - r/happy: 500 submissions, 4646 comments, 0 errors
+2025-06-12 22:28:34,805 - INFO - Saved batch of 108 comments
+2025-06-12 22:28:34,805 - INFO - Finished r/happy: 4646 comments from 500 submissions
+2025-06-12 22:28:34,805 - INFO - Collection complete! Total stats: {'total_comments': 54046, 'total_submissions': 2288, 'errors': 0}
+2025-06-12 22:28:34,995 - INFO - Dataset validation:
+2025-06-12 22:28:34,996 - INFO -   Total rows: 54046
+2025-06-12 22:28:35,000 - INFO -   Subreddits: {'technology': 18472, 'pathofexile': 14731, 'factorio': 10342, 'startups': 5855, 'happy': 4646}
+2025-06-12 22:28:35,007 - INFO -   Date range: 2025-03-22 04:02:07+00:00 to 2025-06-12 16:34:26+00:00
+2025-06-12 22:28:35,021 - INFO -   Missing values: {'subreddit': 0, 'comment_id': 0, 'comment_body': 0, 'created_utc': 0, 'comment_score': 0, 'submission_id': 0, 'submission_title': 0, 'submission_score': 0, 'submission_num_comments': 0}
