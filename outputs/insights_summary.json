@@ -1,0 +1,40 @@
+{
+  "analysis_date": "2025-06-12 18:43:29",
+  "dataset_summary": {
+    "total_comments": 23274,
+    "date_range": "2025-04-11 to 2025-06-12",
+    "subreddits": {
+      "technology": 17575,
+      "startups": 5699
+    }
+  },
+  "sentiment_insights": {
+    "technology": {
+      "average_sentiment": 0.026971903271692747,
+      "sentiment_std": 0.48512006572519545,
+      "positive_percentage": 40.60312944523471,
+      "negative_percentage": 35.351351351351354
+    },
+    "startups": {
+      "average_sentiment": 0.3772299877171434,
+      "sentiment_std": 0.488103096941761,
+      "positive_percentage": 70.69661344095456,
+      "negative_percentage": 16.24846464291981
+    }
+  },
+  "topic_insights": {
+    "total_topics": 36,
+    "top_topics": {
+      "0_founder_get_china_would": 3388,
+      "1_tax_data_youtube_ad": 2172,
+      "2_thanks_thank_good_thats": 987,
+      "3_nvidia_apple_amd_phone": 509,
+      "4_water_energy_nuclear_fusion": 320,
+      "5_automod_compose_contain_performed": 284,
+      "6_article_news_headline_title": 283,
+      "7_starlink_fiber_rural_satellite": 255,
+      "8_chatgpt_chat_gpt_entered": 196,
+      "9_nasa_spacex_space_plane": 194
+    }
+  }
+}

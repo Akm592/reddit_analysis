@@ -1,0 +1,103 @@
+2025-06-12 15:00:21,748 - INFO - Collecting data from 2024-12-14 to 2025-06-12
+2025-06-12 15:00:21,748 - INFO - Starting collection for r/technology
+2025-06-12 15:00:21,748 - INFO - Trying strategy: timestamp
+2025-06-12 15:00:22,816 - INFO - Trying strategy: recent_hot
+2025-06-12 15:00:48,654 - INFO - Saved batch of 594 comments
+2025-06-12 15:01:05,705 - INFO - Saved batch of 509 comments
+2025-06-12 15:01:25,717 - INFO - Saved batch of 521 comments
+2025-06-12 15:01:30,792 - INFO - r/technology: 25 submissions, 1728 comments, 0 errors
+2025-06-12 15:01:57,524 - INFO - Saved batch of 562 comments
+2025-06-12 15:02:21,991 - INFO - r/technology: 50 submissions, 2556 comments, 0 errors
+2025-06-12 15:02:29,645 - INFO - Saved batch of 567 comments
+2025-06-12 15:02:55,692 - INFO - Saved batch of 524 comments
+2025-06-12 15:03:09,204 - INFO - r/technology: 75 submissions, 3545 comments, 0 errors
+2025-06-12 15:03:22,515 - INFO - Saved batch of 507 comments
+2025-06-12 15:03:53,238 - INFO - Saved batch of 543 comments
+2025-06-12 15:04:03,575 - INFO - r/technology: 100 submissions, 4527 comments, 0 errors
+2025-06-12 15:04:19,660 - INFO - Saved batch of 511 comments
+2025-06-12 15:04:45,667 - INFO - Saved batch of 500 comments
+2025-06-12 15:04:50,082 - INFO - r/technology: 125 submissions, 5357 comments, 0 errors
+2025-06-12 15:05:13,013 - INFO - Saved batch of 554 comments
+2025-06-12 15:05:35,629 - INFO - r/technology: 150 submissions, 6265 comments, 0 errors
+2025-06-12 15:05:45,064 - INFO - Saved batch of 562 comments
+2025-06-12 15:06:09,946 - INFO - Saved batch of 534 comments
+2025-06-12 15:06:27,342 - INFO - r/technology: 175 submissions, 7246 comments, 0 errors
+2025-06-12 15:06:40,249 - INFO - Saved batch of 507 comments
+2025-06-12 15:07:14,250 - INFO - r/technology: 200 submissions, 7908 comments, 0 errors
+2025-06-12 15:07:19,373 - INFO - Saved batch of 515 comments
+2025-06-12 15:07:44,973 - INFO - Saved batch of 599 comments
+2025-06-12 15:07:58,349 - INFO - r/technology: 225 submissions, 8834 comments, 0 errors
+2025-06-12 15:08:20,098 - INFO - Saved batch of 594 comments
+2025-06-12 15:08:52,450 - INFO - r/technology: 250 submissions, 9650 comments, 0 errors
+2025-06-12 15:08:54,094 - INFO - Saved batch of 501 comments
+2025-06-12 15:09:14,777 - INFO - Saved batch of 512 comments
+2025-06-12 15:09:38,655 - INFO - Saved batch of 554 comments
+2025-06-12 15:09:45,081 - INFO - r/technology: 275 submissions, 10899 comments, 0 errors
+2025-06-12 15:10:05,780 - INFO - Saved batch of 592 comments
+2025-06-12 15:10:37,278 - INFO - Saved batch of 507 comments
+2025-06-12 15:10:37,279 - INFO - r/technology: 300 submissions, 11869 comments, 0 errors
+2025-06-12 15:10:58,794 - INFO - Saved batch of 568 comments
+2025-06-12 15:11:25,335 - INFO - Saved batch of 506 comments
+2025-06-12 15:11:30,143 - INFO - r/technology: 325 submissions, 13041 comments, 0 errors
+2025-06-12 15:11:57,667 - INFO - Saved batch of 535 comments
+2025-06-12 15:12:17,557 - INFO - r/technology: 350 submissions, 13707 comments, 0 errors
+2025-06-12 15:12:30,061 - INFO - Saved batch of 525 comments
+2025-06-12 15:12:58,233 - INFO - Saved batch of 522 comments
+2025-06-12 15:13:10,673 - INFO - r/technology: 375 submissions, 14786 comments, 0 errors
+2025-06-12 15:13:27,297 - INFO - Saved batch of 506 comments
+2025-06-12 15:13:54,346 - INFO - Saved batch of 505 comments
+2025-06-12 15:13:55,656 - INFO - r/technology: 400 submissions, 15536 comments, 0 errors
+2025-06-12 15:14:23,931 - INFO - Saved batch of 500 comments
+2025-06-12 15:14:42,863 - INFO - r/technology: 425 submissions, 16351 comments, 0 errors
+2025-06-12 15:15:02,644 - INFO - Saved batch of 536 comments
+2025-06-12 15:15:36,522 - INFO - r/technology: 450 submissions, 16940 comments, 0 errors
+2025-06-12 15:15:44,719 - INFO - Saved batch of 549 comments
+2025-06-12 15:16:13,088 - INFO - Saved batch of 540 comments
+2025-06-12 15:16:20,655 - INFO - r/technology: 475 submissions, 17750 comments, 0 errors
+2025-06-12 15:16:48,006 - INFO - Saved batch of 509 comments
+2025-06-12 15:17:00,286 - INFO - r/technology: 500 submissions, 18302 comments, 0 errors
+2025-06-12 15:17:00,289 - INFO - Saved batch of 132 comments
+2025-06-12 15:17:00,289 - INFO - Finished r/technology: 18302 comments from 500 submissions
+2025-06-12 15:17:00,289 - INFO - Starting collection for r/startups
+2025-06-12 15:17:00,289 - INFO - Trying strategy: timestamp
+2025-06-12 15:17:00,717 - INFO - Trying strategy: recent_hot
+2025-06-12 15:17:41,759 - INFO - r/startups: 25 submissions, 457 comments, 0 errors
+2025-06-12 15:17:46,686 - INFO - Saved batch of 590 comments
+2025-06-12 15:18:19,544 - INFO - r/startups: 50 submissions, 996 comments, 0 errors
+2025-06-12 15:18:29,687 - INFO - Saved batch of 501 comments
+2025-06-12 15:18:56,001 - INFO - r/startups: 75 submissions, 1421 comments, 0 errors
+2025-06-12 15:19:06,963 - INFO - Saved batch of 506 comments
+2025-06-12 15:19:35,986 - INFO - r/startups: 100 submissions, 2017 comments, 0 errors
+2025-06-12 15:19:45,367 - INFO - Saved batch of 523 comments
+2025-06-12 15:49:55,899 - WARNING - Retrying due to ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='oauth.reddit.com', port=443): Read timed out. (read timeout=16.0)")) status: GET https://oauth.reddit.com/comments/1l45wz7/
+2025-06-12 15:50:16,735 - INFO - r/startups: 125 submissions, 2568 comments, 0 errors
+2025-06-12 15:50:23,716 - INFO - Saved batch of 501 comments
+2025-06-12 15:50:52,940 - INFO - r/startups: 150 submissions, 2972 comments, 0 errors
+2025-06-12 15:51:03,419 - INFO - Saved batch of 539 comments
+2025-06-12 15:51:29,948 - INFO - r/startups: 175 submissions, 3484 comments, 0 errors
+2025-06-12 15:51:39,170 - INFO - Saved batch of 514 comments
+2025-06-12 15:52:08,199 - INFO - r/startups: 200 submissions, 4156 comments, 0 errors
+2025-06-12 15:52:11,004 - INFO - Saved batch of 505 comments
+2025-06-12 15:52:46,873 - INFO - r/startups: 225 submissions, 4555 comments, 0 errors
+2025-06-12 15:52:58,707 - INFO - Saved batch of 575 comments
+2025-06-12 15:53:23,245 - INFO - r/startups: 250 submissions, 5092 comments, 0 errors
+2025-06-12 15:53:40,405 - INFO - Saved batch of 502 comments
+2025-06-12 15:53:59,627 - INFO - r/startups: 275 submissions, 5589 comments, 0 errors
+2025-06-12 15:54:13,754 - INFO - Saved batch of 576 comments
+2025-06-12 15:54:19,324 - INFO - Saved batch of 38 comments
+2025-06-12 15:54:19,325 - INFO - Finished r/startups: 5870 comments from 288 submissions
+2025-06-12 15:54:19,325 - INFO - Collection complete! Total stats: {'total_comments': 24172, 'total_submissions': 788, 'errors': 0}
+2025-06-12 15:54:19,401 - INFO - Dataset validation:
+2025-06-12 15:54:19,401 - INFO -   Total rows: 24172
+2025-06-12 15:54:19,403 - INFO -   Subreddits: {'technology': 18302, 'startups': 5870}
+2025-06-12 15:54:19,406 - INFO -   Date range: 2025-04-11 18:15:06+00:00 to 2025-06-12 09:42:34+00:00
+2025-06-12 15:54:19,411 - INFO -   Missing values: {'subreddit': 0, 'comment_id': 0, 'comment_body': 0, 'created_utc': 0, 'comment_score': 0, 'submission_id': 0, 'submission_title': 0, 'submission_score': 0, 'submission_num_comments': 0}
+2025-06-12 16:26:18,755 - INFO - Collecting data from 2024-12-14 to 2025-06-12
+2025-06-12 16:26:18,756 - INFO - Skipping r/technology (already completed)
+2025-06-12 16:26:18,756 - INFO - Skipping r/startups (already completed)
+2025-06-12 16:26:18,756 - INFO - Collection complete! Total stats: {'total_comments': 0, 'total_submissions': 0, 'errors': 0}
+2025-06-12 16:26:18,836 - INFO - Dataset validation:
+2025-06-12 16:26:18,836 - INFO -   Total rows: 24172
+2025-06-12 16:26:18,837 - INFO -   Subreddits: {'technology': 18302, 'startups': 5870}
+2025-06-12 16:26:18,839 - INFO -   Date range: 2025-04-11 18:15:06+00:00 to 2025-06-12 09:42:34+00:00
+2025-06-12 16:26:18,843 - INFO -   Missing values: {'subreddit': 0, 'comment_id': 0, 'comment_body': 0, 'created_utc': 0, 'comment_score': 0, 'submission_id': 0, 'submission_title': 0, 'submission_score': 0, 'submission_num_comments': 0}

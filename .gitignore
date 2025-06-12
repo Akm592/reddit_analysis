@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+venv/
+.env/
+
+# Secrets - Do NOT commit your API keys!
+config.ini
+
+# Data & Models (too large for Git)
+data/raw/
+data/processed/
+models/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific
+.idea/
+.vscode/
